@@ -6,16 +6,13 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "installCommand": "npm ci"
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "installCommand": "npm ci"
+      "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "installCommand": "npm ci"
+      "autoIncrement": true
     }
   },
   "submit": {
